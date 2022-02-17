@@ -1,0 +1,47 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 20px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a img {
+    margin: 0px 0px;
+    width: 30px;
+}
+
+header h1 {
+    flex-grow: 2;
+}
+
+body {
+    align-items: center;
+    background-color: rgb(231, 227, 221);
+}
+
+.projects {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 30%;
+    height: 500px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box img {
+    margin: 0;
+    width:100%;
+}
