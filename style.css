@@ -35,7 +35,7 @@ body {
 
 .box {
     width: 30%;
-    height: 500px;
+    min-height: 400px;
     background-color: rgb(247, 247, 247);
     border-radius: 1%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -44,4 +44,39 @@ body {
 .box img {
     margin: 0;
     width:100%;
+}
+
+.box .programming {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.box .programming img {
+    width: 25px;
+    height: 25px;
+}
+
+.box .programming p {
+    margin: 8px;
+    font-weight: bold;
+}
+
+.box .text {
+    text-align: justify;
+    opacity: 70%;
+    margin-bottom: 3px;
+}
+
+.box .buttons {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+    margin-top: 2px;
+}
+
+.box .buttons img {
+    width: 20px;
+    opacity: 70%;
 }
