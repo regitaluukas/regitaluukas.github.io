@@ -20,7 +20,7 @@ header h1 {
 
 body {
     align-items: center;
-    background-color: rgb(231, 227, 221);
+    background-color: rgb(243, 241, 241);
 }
 
 .projects {
@@ -79,4 +79,26 @@ body {
 .box .buttons img {
     width: 20px;
     opacity: 70%;
+}
+
+@media screen and (max-width: 1060px) {
+    .box .programming {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    header h1{
+        flex-grow: 1;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 90%;
+    }
+
 }
